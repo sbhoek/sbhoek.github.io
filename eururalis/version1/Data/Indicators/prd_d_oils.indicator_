@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_d_oils
+Caption=NACE: output growth compared with the base for oils (domestic supply)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.15;0.3> | $0084FFFF | 0.15 - 0.3
+2=Range | [0.3;0.45> | $0063E3FF | 0.3 - 0.45
+3=Range | [0.45;0.6> | $004AC3F7 | 0.45 - 0.6
+4=Range | [0.6;0.75> | $0029A6F7 | 0.6 - 0.75
+5=Range | [0.75;0.9> | $00186DC6 | 0.75 - 0.9
+6=Range | [0.9;1.05> | $00083894 | 0.9 - 1.05
+7=Range | [1.05;1.2> | $0000046B | 1.05 - 1.2
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

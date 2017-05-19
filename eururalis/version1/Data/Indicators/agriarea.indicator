@@ -1,0 +1,26 @@
+[Legend]
+IndicatorID=agriarea
+Caption=Agricultural area (historical)
+DifferenceType=Absolute
+Units=Percentage
+Groups=lndusehist
+IsTableData=1
+
+
+
+
+
+[Categories]
+Count=7
+1=Range | [5;16> | $0084FFFF | 5 - 16
+2=Range | [16;27> | $0063E3FF | 16 - 27
+3=Range | [27;38> | $004AC3F7 | 27 - 38
+4=Range | [38;49> | $0029A6F7 | 38 - 49
+5=Range | [49;60> | $00186DC6 | 49 - 60
+6=Range | [60;71> | $00083894 | 60 - 71
+7=Range | [71;85> | $0000046B | 71 - 85
+[DiffCat]
+Count=3
+1=Range | [-100;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;100> | clRed | increase

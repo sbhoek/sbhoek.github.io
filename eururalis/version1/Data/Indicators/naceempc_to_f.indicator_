@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=naceempc_to_f
+Caption=NACE: Industry
+DifferenceType=Absolute
+Units=
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;2100> | $0084FFFF | 0 - 2100
+2=Range | [2100;4200> | $0063E3FF | 2100 - 4200
+3=Range | [4200;6300> | $004AC3F7 | 4200 - 6300
+4=Range | [6300;8400> | $0029A6F7 | 6300 - 8400
+5=Range | [8400;10500> | $00186DC6 | 8400 - 10500
+6=Range | [10500;12600> | $00083894 | 10500 - 12600
+7=Range | [12600;15000> | $0000046B | 12600 - 15000
+[DiffCat]
+Count=3
+1=Range | [-2E006;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;2E006> | clRed | increase

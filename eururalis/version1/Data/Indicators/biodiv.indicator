@@ -1,0 +1,22 @@
+[Legend]
+IndicatorID=biodiv
+Caption=Biodiversity in nature area
+DifferenceType=Absolute
+Units=Percentage
+Groups=biodiversity
+IsTableData=0
+
+
+[Categories]
+Count=6
+1=Single | 0 | clSilver | No nature
+2=Range | <0;20> | $0084FFFF | 0 - 20
+3=Range | [20;40> | $0063E3FF | 20 - 40
+4=Range | [40;60> | $004AC3F7 | 40 - 60
+5=Range | [60;80> | $0029A6F7 | 60 - 80
+6=Range | [80;100] | $00186DC6 | 80 - 100
+[DiffCat]
+Count=3
+1=Range | [0.1;1000> | $0000C000 | increase
+2=Range | [-0.1;0.1> | $000080FF | no change
+3=Range | [-1000;-0.1> | clRed | decrease

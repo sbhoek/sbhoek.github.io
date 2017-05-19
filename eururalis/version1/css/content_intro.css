@@ -1,0 +1,16 @@
+p.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	margin: 5px;
+
+}
+p.stelling {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align:left;
+	
+	border-top:1px dotted #00aa00;
+}

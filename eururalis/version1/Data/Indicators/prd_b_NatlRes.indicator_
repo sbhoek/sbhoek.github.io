@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_b_natlres
+Caption=NACE: output growth compared with the base for NatlRes?????? (border supply)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.95;0.993> | $0084FFFF | 0.95 - 0.993
+2=Range | [0.993;1.036> | $0063E3FF | 0.993 - 1.036
+3=Range | [1.036;1.079> | $004AC3F7 | 1.036 - 1.079
+4=Range | [1.079;1.122> | $0029A6F7 | 1.079 - 1.122
+5=Range | [1.122;1.165> | $00186DC6 | 1.122 - 1.165
+6=Range | [1.165;1.208> | $00083894 | 1.165 - 1.208
+7=Range | [1.208;1.25> | $0000046B | 1.208 - 1.25
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

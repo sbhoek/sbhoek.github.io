@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=nacecliob02
+Caption=NACE-CLIO: Industry
+DifferenceType=Absolute
+Units=Millions of euro
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;71000> | $0084FFFF | 0 - 71000
+2=Range | [71000;142000> | $0063E3FF | 71000 - 142000
+3=Range | [142000;213000> | $004AC3F7 | 142000 - 213000
+4=Range | [213000;284000> | $0029A6F7 | 213000 - 284000
+5=Range | [284000;355000> | $00186DC6 | 284000 - 355000
+6=Range | [355000;426000> | $00083894 | 355000 - 426000
+7=Range | [426000;500000> | $0000046B | 426000 - 500000
+[DiffCat]
+Count=3
+1=Range | [-5E006;-1> | $0000C000 | decrease
+2=Range | [-1;1> | clSilver | no change
+3=Range | [1;5E006> | clRed | increase

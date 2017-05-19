@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=pra_t_total
+Caption=production growth all sectors (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.95;1.121> | $0084FFFF | 0.95 - 1.121
+2=Range | [1.121;1.292> | $0063E3FF | 1.121 - 1.292
+3=Range | [1.292;1.463> | $004AC3F7 | 1.292 - 1.463
+4=Range | [1.463;1.634> | $0029A6F7 | 1.463 - 1.634
+5=Range | [1.634;1.805> | $00186DC6 | 1.634 - 1.805
+6=Range | [1.805;1.976> | $00083894 | 1.805 - 1.976
+7=Range | [1.976;2.15> | $0000046B | 1.976 - 2.15
+[DiffCat]
+Count=3
+1=Range | [-5;-0.01] | $0000C000 | decrease
+2=Range | <-0.01;0.01> | clSilver | no change
+3=Range | [0.01;5> | clRed | increase

@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_b_cattle
+Caption=production growth  cattle (border support)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.45;0.614> | $0084FFFF | 0.45 - 0.614
+2=Range | [0.614;0.778> | $0063E3FF | 0.614 - 0.778
+3=Range | [0.778;0.942> | $004AC3F7 | 0.778 - 0.942
+4=Range | [0.942;1.106> | $0029A6F7 | 0.942 - 1.106
+5=Range | [1.106;1.27> | $00186DC6 | 1.106 - 1.27
+6=Range | [1.27;1.434> | $00083894 | 1.27 - 1.434
+7=Range | [1.434;1.6> | $0000046B | 1.434 - 1.6
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_d_sugar
+Caption=Production growth sugar (domestic support)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.95;0.979> | $0084FFFF | 0.95 - 0.979
+2=Range | [0.979;1.008> | $0063E3FF | 0.979 - 1.008
+3=Range | [1.008;1.037> | $004AC3F7 | 1.008 - 1.037
+4=Range | [1.037;1.066> | $0029A6F7 | 1.037 - 1.066
+5=Range | [1.066;1.095> | $00186DC6 | 1.066 - 1.095
+6=Range | [1.095;1.124> | $00083894 | 1.095 - 1.124
+7=Range | [1.124;1.15> | $0000046B | 1.124 - 1.15
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_b_oap
+Caption=NACE: output growth compared with the base for oap?????? (border supply)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.85;0.893> | $0084FFFF | 0.85 - 0.893
+2=Range | [0.893;0.936> | $0063E3FF | 0.893 - 0.936
+3=Range | [0.936;0.979> | $004AC3F7 | 0.936 - 0.979
+4=Range | [0.979;1.022> | $0029A6F7 | 0.979 - 1.022
+5=Range | [1.022;1.065> | $00186DC6 | 1.022 - 1.065
+6=Range | [1.065;1.108> | $00083894 | 1.065 - 1.108
+7=Range | [1.108;1.15> | $0000046B | 1.108 - 1.15
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

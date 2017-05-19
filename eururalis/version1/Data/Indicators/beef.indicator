@@ -1,0 +1,24 @@
+[Legend]
+IndicatorID=beef
+Caption=Annimal production beef
+DifferenceType=Absolute
+Units=
+Groups=
+IsTableData=
+
+[Categories]
+Count=7
+1=Range | [0;2000000> 	    | $0084FFFF | < 2000000
+2=Range | [2000000;2500000> | $0063E3FF | 2000000 - 2500000
+3=Range | [2500000;3000000> | $004AC3F7 | 2500000 - 3000000
+4=Range | [3000000;3500000> | $0029A6F7 | 3000000 - 3500000
+5=Range | [3500000;4000000> | $00186DC6 | 3500000 - 4000000
+6=Range | [4000000;6000000> | $00083894 | 4000000 - 6000000
+7=Range | [6000000;25000000>| $0000046B | 6000000 >
+
+
+[DiffCat]
+Count=3
+1=Range | [-25000000;-10000> | $0000C000 | decrease
+2=Range | [-10000;10000] | clSilver | no change
+3=Range | <10000;50000000] | clRed | increase

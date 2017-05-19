@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_b_sug
+Caption=NACE: output growth compared with the base for sug?????? (border supply)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;0.257> | $0084FFFF | 0 - 0.257
+2=Range | [0.257;0.514> | $0063E3FF | 0.257 - 0.514
+3=Range | [0.514;0.771> | $004AC3F7 | 0.514 - 0.771
+4=Range | [0.771;1.028> | $0029A6F7 | 0.771 - 1.028
+5=Range | [1.028;1.285> | $00186DC6 | 1.028 - 1.285
+6=Range | [1.285;1.542> | $00083894 | 1.285 - 1.542
+7=Range | [1.542;1.8> | $0000046B | 1.542 - 1.8
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

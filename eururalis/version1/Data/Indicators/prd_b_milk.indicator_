@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_b_milk
+Caption=NACE: output growth compared with the base for milk (border supply)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.65;0.729> | $0084FFFF | 0.65 - 0.729
+2=Range | [0.729;0.808> | $0063E3FF | 0.729 - 0.808
+3=Range | [0.808;0.887> | $004AC3F7 | 0.808 - 0.887
+4=Range | [0.887;0.966> | $0029A6F7 | 0.887 - 0.966
+5=Range | [0.966;1.045> | $00186DC6 | 0.966 - 1.045
+6=Range | [1.045;1.124> | $00083894 | 1.045 - 1.124
+7=Range | [1.124;1.2> | $0000046B | 1.124 - 1.2
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

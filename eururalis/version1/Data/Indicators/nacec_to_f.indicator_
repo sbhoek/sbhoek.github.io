@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=nacec_to_f
+Caption=NACE: Industry
+DifferenceType=Absolute
+Units=Millions of euro
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;86000> | $0084FFFF | 0 - 86000
+2=Range | [86000;172000> | $0063E3FF | 86000 - 172000
+3=Range | [172000;258000> | $004AC3F7 | 172000 - 258000
+4=Range | [258000;344000> | $0029A6F7 | 258000 - 344000
+5=Range | [344000;430000> | $00186DC6 | 344000 - 430000
+6=Range | [430000;516000> | $00083894 | 430000 - 516000
+7=Range | [516000;600000> | $0000046B | 516000 - 600000
+[DiffCat]
+Count=3
+1=Range | [-2E006;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;2E006> | clRed | increase

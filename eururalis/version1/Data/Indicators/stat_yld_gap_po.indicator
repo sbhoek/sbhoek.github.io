@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=stat_yld_gap_po
+Caption=Yield gap potatoes (historical)
+DifferenceType=Absolute
+Units=fraction
+Groups=Yieldgap
+IsTableData=0
+
+
+[Categories]
+Count=7
+1=Range | [0;0.1> | $00ADEFF7 | 0 - 0.1
+2=Range | [0.1;0.2> | $0094CFD6 | 0.1 - 0.2
+3=Range | [0.2;0.28> | $007BAEBD | 0.2 - 0.28
+4=Range | [0.28;0.35> | $006392A5 | 0.28 - 0.35
+5=Range | [0.35;0.4> | $0052758C | 0.35 - 0.4
+6=Range | [0.4;0.45> | $00425D7B | 0.4 - 0.45
+7=Range | [0.45;0.56> | $00314963 | 0.45 >
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_t_oils
+Caption=NACE: output growth compared with the base for oils (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.2;0.386> | $0084FFFF | 0.2 - 0.386
+2=Range | [0.386;0.572> | $0063E3FF | 0.386 - 0.572
+3=Range | [0.572;0.758> | $004AC3F7 | 0.572 - 0.758
+4=Range | [0.758;0.944> | $0029A6F7 | 0.758 - 0.944
+5=Range | [0.944;1.13> | $00186DC6 | 0.944 - 1.13
+6=Range | [1.13;1.316> | $00083894 | 1.13 - 1.316
+7=Range | [1.316;1.5> | $0000046B | 1.316 - 1.5
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

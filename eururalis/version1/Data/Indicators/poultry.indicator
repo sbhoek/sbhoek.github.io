@@ -1,0 +1,24 @@
+[Legend]
+IndicatorID=poultry
+Caption=Annimal production poultry
+DifferenceType=Absolute
+Units=
+Groups=
+IsTableData=
+
+[Categories]
+Count=7
+1=Range | [0;10000000> 	    | $0084FFFF | < 10000000
+2=Range | [10000000;20000000> | $0063E3FF | 10000000 - 20000000
+3=Range | [20000000;30000000> | $004AC3F7 | 20000000 - 30000000
+4=Range | [30000000;40000000> | $0029A6F7 | 30000000 - 40000000
+5=Range | [40000000;50000000> | $00186DC6 | 40000000 - 50000000
+6=Range | [500000000;100000000> | $00083894 | 50000000 - 1000000000
+7=Range | [100000000;500000000>| $0000046B | 100000000 >
+
+
+[DiffCat]
+Count=3
+1=Range | [-100000000;-100000> | $0000C000 | decrease
+2=Range | [-100000;100000] | clSilver | no change
+3=Range | <100000;1000000000] | clRed | increase

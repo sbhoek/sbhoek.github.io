@@ -1,0 +1,68 @@
+<HTML>
+<head>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<script language="JavaScript" src="../../scripts/test.js"></script>
+<script language="JavaScript">
+	var choosen  
+		
+	function rollover(id, onoff){
+		if (checkchoosen(id)){
+			if (onoff){
+				document.getElementById(id).style.border = "2px solid #ffcc33"
+			} else {
+				document.getElementById(id).style.border = "2px solid #000000"
+			}
+		}		
+	}
+
+	function checkchoosen(id){
+		if (choosen == id){
+			return false
+		}
+		else{
+			return true
+		}
+	}
+	
+	function choose(id){
+		if (document.getElementById(choosen)){
+			document.getElementById(choosen).style.border = "2px solid #000000"
+			
+		}
+		choosen = id
+		parent.topFrame.chooseScenario(id)
+		document.getElementById(id).style.border = "2px solid #ffcc33"
+		selectedScenario =  new Array('a1', 'a2','b1',  'b2')
+		document.forms[0].elements[0].value=selectedScenario[choosen]
+	}
+
+</script>
+<link href="../../css/content.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#006600" >
+<div style="top:30px; left:30px; width:220px">
+	<p class="kop">scenario test</p>
+	<p> Each collage represents one of the scanarios, please select the collage that appeals most to you.
+	Your choice will be used later on in the program.</p>
+	<p class="kop"><br>
+	<form id="scenario_test" >you have choosen: &nbsp;<input id="scenario"   type="text" width="20" style="width:20px;"></form>
+	</p><br></div>
+	<div style="top:30px; left:300px; width:650px">
+<table>
+  <tr>
+    <td><img src="../../images/content/scenarios/A1.jpg" width="312" height="233" border="2" id="0" onClick="choose(id)" onMouseOver="rollover(id, true)" onMouseOut="rollover(id, false)"></td>
+    <td><img src="../../images/content/scenarios/A2.jpg" width="312" height="233" border="2" id="2" onClick="choose(id)" onMouseOver="rollover(id, true)" onMouseOut="rollover(id, false)"></td>
+  </tr>
+    <tr>
+    <td><img src="../../images/content/scenarios/B1.jpg" width="312" height="233" border="2" id="1" onClick="choose(id)" onMouseOver="rollover(id, true)" onMouseOut="rollover(id, false)"></td>
+    <td><img src="../../images/content/scenarios/B2.jpg" width="312" height="233" border="2" id="3" onClick="choose(id)" onMouseOver="rollover(id, true)" onMouseOut="rollover(id, false)"></td>
+  </tr>
+</table>
+</div>
+	
+
+ 
+
+
+</body>
+</HTML>

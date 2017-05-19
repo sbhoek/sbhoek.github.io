@@ -1,0 +1,106 @@
+body {
+	background-attachment: fixed;
+	background-color: #006600;
+	background-image: url(../images/bg-menu.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.tekstwit{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	cursor:hand
+}
+td.logo{
+	background: #006633 url(../images/logo.jpg) no-repeat fixed 0px 0px;
+	width:400;
+	height:40;
+}
+td.banner{
+	width:*;
+	background: #006633 url(../images/banner_fill.jpg) repeat-x fixed 0px 0px;
+	 height:40;
+}
+td.menu {
+	width:*;
+	background: #207920 url(../images/menu_left_fill.jpg) repeat-y;
+	border-bottom:1px solid #000000; 
+	 height:30;
+}
+td.menuitem{
+		border-left:1px solid #3E913E; 
+		border-right:1px solid #007000; 
+		color  : #c0e6c0; 
+		font: bold 12px  Arial, Helvetica, sans-serif;
+		padding-left:5px;
+		cursor:hand;
+			cursor:pointer;
+		
+}
+td.menuitem1{
+		border-left:1px solid #67A573; 
+		border-right:1px solid #22a222; 
+		color  : #c0e6c0; 
+		font: bold 12px  Arial, Helvetica, sans-serif;
+		padding-left:5px;
+		cursor:hand;
+		cursor:pointer;
+		width:120px;
+}
+div.menu{
+	position:absolute; 
+	left:13; 
+	top:40; 
+	height:29;
+}
+div.startapp{
+	position:absolute;
+	right:40px; 
+	top:4px;
+}
+table.menu{
+	width:100%;
+	height:29; 
+	 border:0px;
+}
+td.nr{
+	width:14px;
+	color: #A0C6A0;
+	text-align:center;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	border-left:1px solid #4BAF4B; 
+		background:#378737;
+ }
+td.nr1{
+	width:14px;
+	color: #cFE2cF;
+	background:#93BDA2;
+	text-align:center;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	border-left:1px solid #4BAF4B; 
+ }
+ td.nr2{
+ width:14px;
+	color: #cFE2cF;
+	background:#68a868;
+	
+	text-align:center;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	border-left:1px solid #4BAF4B; 
+ }
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+td.tourmenu{
+		color  : #ffcc00; 
+		font: bold 13px  Arial, Helvetica, sans-serif;
+		padding-left:5px;
+		cursor:hand;
+		cursor:pointer;
+}

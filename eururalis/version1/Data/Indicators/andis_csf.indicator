@@ -1,0 +1,22 @@
+[Legend]
+IndicatorID=anidis_csf 
+Caption=Animal disease: classic swine fever
+DifferenceType=Absolute
+Units=Values
+Groups=animaldis
+IsTableData=0
+
+
+
+
+
+[Categories]
+Count=3
+1=Single | 0 | $0000AA39 | low risk
+2=Single | 1 | clYellow | medium risk
+3=Single | 2 | clRed | high risk
+[DiffCat]
+Count=3
+1=Range | [1;2] | $0000C000 | decrease
+2=Single | 0 | clSilver | no change
+3=Range | [-2;-1] | clRed | increase

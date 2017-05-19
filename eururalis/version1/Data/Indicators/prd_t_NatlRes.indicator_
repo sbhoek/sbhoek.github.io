@@ -1,0 +1,17 @@
+[Legend]
+IndicatorID=prd_t_natlres
+Caption=NACE: output growth compared with the base for NatlRes?????? (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=1
+1=Range | [-100;100] | $0084FFFF | 1
+[DiffCat]
+Count=3
+1=Range | [-50;-1> | $0000C000 | decrease
+2=Range | [-1;1> | clSilver | no change
+3=Range | [1;50> | clRed | increase

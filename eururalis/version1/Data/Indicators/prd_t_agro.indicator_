@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_t_agro
+Caption=NACE: output growth compared with the base for agro?????? (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.95;1.171> | $0084FFFF | 0.95 - 1.171
+2=Range | [1.171;1.392> | $0063E3FF | 1.171 - 1.392
+3=Range | [1.392;1.613> | $004AC3F7 | 1.392 - 1.613
+4=Range | [1.613;1.834> | $0029A6F7 | 1.613 - 1.834
+5=Range | [1.834;2.055> | $00186DC6 | 1.834 - 2.055
+6=Range | [2.055;2.276> | $00083894 | 2.055 - 2.276
+7=Range | [2.276;2.5> | $0000046B | 2.276 - 2.5
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

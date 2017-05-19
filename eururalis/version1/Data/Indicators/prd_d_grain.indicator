@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_d_grain
+Caption=Production growth grain (domestic support)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.85;0.886> | $0084FFFF | 0.85 - 0.886
+2=Range | [0.886;0.922> | $0063E3FF | 0.886 - 0.922
+3=Range | [0.922;0.958> | $004AC3F7 | 0.922 - 0.958
+4=Range | [0.958;0.994> | $0029A6F7 | 0.958 - 0.994
+5=Range | [0.994;1.03> | $00186DC6 | 0.994 - 1.03
+6=Range | [1.03;1.066> | $00083894 | 1.03 - 1.066
+7=Range | [1.066;1.1> | $0000046B | 1.066 - 1.1
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

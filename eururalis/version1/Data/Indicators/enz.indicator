@@ -1,0 +1,27 @@
+[Legend]
+IndicatorID=enz
+Caption=Environmental zones
+DifferenceType=Absolute
+Units=
+Groups=biodiversity
+IsTableData=0
+
+
+
+[Categories]
+Count=11
+1=Complex | 1,5 | $00B582B5 | Alpine
+2=Single | 2 | $00738E52 | Boreal
+3=Single | 3 | $00BDD394 | Nemoral
+4=Complex | 4,7 | $00DEAA5A | Atlantic
+5=Single | 6 | $0052BE73 | Continental
+6=Single | 7 | $00F7D784 | Atlantic Central
+7=Single | 8 | $00396131 | Pannonian
+8=Single | 9 | $00F7E3BD | Lusitanian
+9=Single | 11 | $003145A5 | Mediterranean Mountains
+10=Single | 12 | $0039AEEF | Mediterranean North
+11=Single | 13 | $00BDE7F7 | Mediterranean South
+[DiffCat]
+Count=2
+1=Complex | -13,-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5,6,7,8,9,10,11,12,13 | $000000E7 | Change
+2=Single | 0 | $00E7E3E7 | No change

@@ -1,0 +1,12 @@
+[General]
+Map=eur25nuts1
+[Values]
+DK=0
+IRL=0
+BE=0.01
+LU=0.04
+NL=0.14
+AT=0.22
+I=0.3
+P=0.35
+FR=0.41

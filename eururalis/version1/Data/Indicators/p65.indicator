@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=p65
+Caption=Population over 65 years
+DifferenceType=Relative
+Units=Percentage
+Groups=pop
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;4.3> | $0084FFFF | 0 - 4.3
+2=Range | [4.3;8.6> | $0063E3FF | 4.3 - 8.6
+3=Range | [8.6;12.9> | $004AC3F7 | 8.6 - 12.9
+4=Range | [12.9;17.2> | $0029A6F7 | 12.9 - 17.2
+5=Range | [17.2;21.5> | $00186DC6 | 17.2 - 21.5
+6=Range | [21.5;25.8> | $00083894 | 21.5 - 25.8
+7=Range | [25.8;30> | $0000046B | 25.8 - 30
+[DiffCat]
+Count=3
+1=Range | [-50;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;50> | clRed | increase

@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=pra_b_livestock
+Caption=production growth livestock sector (border support)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.8;0.85> | $0084FFFF | 0.8 - 0.85
+2=Range | [0.85;0.9> | $0063E3FF | 0.85 - 0.9
+3=Range | [0.9;0.95> | $004AC3F7 | 0.9 - 0.95
+4=Range | [0.95;1> | $0029A6F7 | 0.95 - 1
+5=Range | [1;1.05> | $00186DC6 | 1 - 1.05
+6=Range | [1.05;1.1> | $00083894 | 1.05 - 1.1
+7=Range | [1.1;1.15> | $0000046B | 1.1 - 1.15
+[DiffCat]
+Count=3
+1=Range | [-5;-0.01] | $0000C000 | decrease
+2=Range | <-0.01;0.01> | clSilver | no change
+3=Range | [0.01;5> | clRed | increase

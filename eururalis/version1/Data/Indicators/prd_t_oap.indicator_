@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_t_oap
+Caption=NACE: output growth compared with the base for oap?????? (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.8;0.929> | $0084FFFF | 0.8 - 0.929
+2=Range | [0.929;1.058> | $0063E3FF | 0.929 - 1.058
+3=Range | [1.058;1.187> | $004AC3F7 | 1.058 - 1.187
+4=Range | [1.187;1.316> | $0029A6F7 | 1.187 - 1.316
+5=Range | [1.316;1.445> | $00186DC6 | 1.316 - 1.445
+6=Range | [1.445;1.574> | $00083894 | 1.445 - 1.574
+7=Range | [1.574;1.7> | $0000046B | 1.574 - 1.7
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

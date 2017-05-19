@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=naceclioempb03
+Caption=NACE-CLIO: Services
+DifferenceType=Absolute
+Units=
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;2900> | $0084FFFF | 0 - 2900
+2=Range | [2900;5800> | $0063E3FF | 2900 - 5800
+3=Range | [5800;8700> | $004AC3F7 | 5800 - 8700
+4=Range | [8700;11600> | $0029A6F7 | 8700 - 11600
+5=Range | [11600;14500> | $00186DC6 | 11600 - 14500
+6=Range | [14500;17400> | $00083894 | 14500 - 17400
+7=Range | [17400;20000> | $0000046B | 17400 - 20000
+[DiffCat]
+Count=3
+1=Range | [-1E006;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;1E006> | clRed | increase

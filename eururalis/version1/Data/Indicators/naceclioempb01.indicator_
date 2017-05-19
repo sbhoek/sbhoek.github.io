@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=naceclioempb01
+Caption=NACE-CLIO: Agricultural, forestry and fishery products
+DifferenceType=Absolute
+Units=
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;430> | $0084FFFF | 0 - 430
+2=Range | [430;860> | $0063E3FF | 430 - 860
+3=Range | [860;1290> | $004AC3F7 | 860 - 1290
+4=Range | [1290;1720> | $0029A6F7 | 1290 - 1720
+5=Range | [1720;2150> | $00186DC6 | 1720 - 2150
+6=Range | [2150;2580> | $00083894 | 2150 - 2580
+7=Range | [2580;3000> | $0000046B | 2580 - 3000
+[DiffCat]
+Count=3
+1=Range | [-1E006;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;1E006> | clRed | increase

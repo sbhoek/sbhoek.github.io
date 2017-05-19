@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_t_cgds
+Caption=NACE: output growth compared with the base for CGDS?????? (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [1;1.471> | $0084FFFF | 1 - 1.471
+2=Range | [1.471;1.942> | $0063E3FF | 1.471 - 1.942
+3=Range | [1.942;2.413> | $004AC3F7 | 1.942 - 2.413
+4=Range | [2.413;2.884> | $0029A6F7 | 2.413 - 2.884
+5=Range | [2.884;3.355> | $00186DC6 | 2.884 - 3.355
+6=Range | [3.355;3.826> | $00083894 | 3.355 - 3.826
+7=Range | [3.826;4.3> | $0000046B | 3.826 - 4.3
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

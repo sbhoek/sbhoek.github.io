@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=sagg_tot_agri
+Caption=Share of total agricultural food in GDP
+DifferenceType=Absolute
+Units=fraction
+Groups=GDP
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.01;0.0371> | $0084FFFF | 0.01 - 0.0371
+2=Range | [0.0371;0.0642> | $0063E3FF | 0.0371 - 0.0642
+3=Range | [0.0642;0.0913> | $004AC3F7 | 0.0642 - 0.0913
+4=Range | [0.0913;0.1184> | $0029A6F7 | 0.0913 - 0.1184
+5=Range | [0.1184;0.1455> | $00186DC6 | 0.1184 - 0.1455
+6=Range | [0.1455;0.1726> | $00083894 | 0.1455 - 0.1726
+7=Range | [0.1726;0.2> | $0000046B | 0.1726 - 0.2
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

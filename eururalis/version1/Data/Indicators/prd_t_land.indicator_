@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_t_land
+Caption=NACE: output growth compared with the base for land?????? (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.8;0.843> | $0084FFFF | 0.8 - 0.843
+2=Range | [0.843;0.886> | $0063E3FF | 0.843 - 0.886
+3=Range | [0.886;0.929> | $004AC3F7 | 0.886 - 0.929
+4=Range | [0.929;0.972> | $0029A6F7 | 0.929 - 0.972
+5=Range | [0.972;1.015> | $00186DC6 | 0.972 - 1.015
+6=Range | [1.015;1.058> | $00083894 | 1.015 - 1.058
+7=Range | [1.058;1.1> | $0000046B | 1.058 - 1.1
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

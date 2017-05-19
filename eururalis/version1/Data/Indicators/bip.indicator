@@ -1,0 +1,21 @@
+[Legend]
+IndicatorID=bip
+Caption=Biodiversity pastures
+DifferenceType=Absolute
+Units=
+Groups=biodiversity
+IsTableData=1
+
+
+[Categories]
+Count=5
+1=Range | [0;10> | $0084FFFF | < 10
+2=Range | [10;15> | $0052D3FF | 10 - 15
+3=Range | [15;20> | $0029A6F7 | 15 - 20
+4=Range | [20;25> | $001051AD | 20 - 25
+5=Range | [25;40> | $0000006B | 25 >
+[DiffCat]
+Count=3
+1=Range | <1;100] | $0000C000 | increase
+2=Range | [-1;1] | $000080FF | no change
+3=Range | [-100;-1> | clRed | decrease

@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_t_ind
+Caption=NACE: output growth compared with the base for industrial?????? (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.85;1.036> | $0084FFFF | 0.85 - 1.036
+2=Range | [1.036;1.222> | $0063E3FF | 1.036 - 1.222
+3=Range | [1.222;1.408> | $004AC3F7 | 1.222 - 1.408
+4=Range | [1.408;1.594> | $0029A6F7 | 1.408 - 1.594
+5=Range | [1.594;1.78> | $00186DC6 | 1.594 - 1.78
+6=Range | [1.78;1.966> | $00083894 | 1.78 - 1.966
+7=Range | [1.966;2.15> | $0000046B | 1.966 - 2.15
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

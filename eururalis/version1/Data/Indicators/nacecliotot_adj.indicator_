@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=nacecliotot_adj
+Caption=NACE-CLIO: TOTAL-B69B
+DifferenceType=Absolute
+Units=Millions of euro
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;214000> | $0084FFFF | 0 - 214000
+2=Range | [214000;428000> | $0063E3FF | 214000 - 428000
+3=Range | [428000;642000> | $004AC3F7 | 428000 - 642000
+4=Range | [642000;856000> | $0029A6F7 | 642000 - 856000
+5=Range | [856000;1.07E006> | $00186DC6 | 856000 - 1070000
+6=Range | [1.07E006;1.284E006> | $00083894 | 1070000 - 1284000
+7=Range | [1.284E006;1.5E006> | $0000046B | 1284000 - 1500000
+[DiffCat]
+Count=3
+1=Range | [-2E006;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;2E006> | clRed | increase

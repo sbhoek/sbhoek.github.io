@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=theor_yld_gap_po 
+Caption=Potatoes: 5 year average (1996-2000) yield gap due to water limitation as simulated using WOFOST/CGMS
+DifferenceType=Absolute
+Units=
+Groups=Yieldgap
+IsTableData=0
+
+
+[Categories]
+Count=7
+1=Range | [0;0.1> | $00ADEFF7 | low risk
+2=Range | [0.1;0.2> | $0094CFD6 | low risk
+3=Range | [0.2;0.28> | $007BAEBD | low risk
+4=Range | [0.28;0.35> | $006392A5 | low risk
+5=Range | [0.35;0.4> | $0052758C | low risk
+6=Range | [0.4;0.45> | $00425D7B | low risk
+7=Range | [0.45;0.56> | $00314963 | low risk
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

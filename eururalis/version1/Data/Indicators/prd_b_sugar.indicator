@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_b_sugar
+Caption=production growth  sugar (border support)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;0.457> | $0084FFFF | 0 - 0.457
+2=Range | [0.457;0.914> | $0063E3FF | 0.457 - 0.914
+3=Range | [0.914;1.371> | $004AC3F7 | 0.914 - 1.371
+4=Range | [1.371;1.828> | $0029A6F7 | 1.371 - 1.828
+5=Range | [1.828;2.285> | $00186DC6 | 1.828 - 2.285
+6=Range | [2.285;2.742> | $00083894 | 2.285 - 2.742
+7=Range | [2.742;3.2> | $0000046B | 2.742 - 3.2
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

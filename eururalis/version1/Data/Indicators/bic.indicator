@@ -1,0 +1,22 @@
+[Legend]
+IndicatorID=bic
+Caption=Biodiversity arable land
+DifferenceType=Absolute
+Units=
+Groups=biodiversity
+IsTableData=1
+
+
+[Categories]
+Count=6
+1=Range | [0;5> | $0084FFFF | < 5
+2=Range | [5;8> | $005ADFFF | 5 - 8
+3=Range | [8;11> | $0039BAF7 | 8 - 11
+4=Range | [11;14> | $002186D6 | 11 - 14
+5=Range | [14;20> | $0010459C | 14 - 20
+6=Range | [20;25> | $0000046B | 20 >
+[DiffCat]
+Count=3
+1=Range | <1;100] | $0000C000 | increase
+2=Range | [-1;1] | $000080FF | no change
+3=Range | [-100;-1> | clRed | decrease

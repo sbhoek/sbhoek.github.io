@@ -1,0 +1,26 @@
+[Legend]
+IndicatorID=carbon
+Caption=Carbon sequestration
+DifferenceType=Absolute
+Units=ton C/y
+Groups=carbon
+IsTableData=1
+
+
+
+
+
+[Categories]
+Count=7
+1=Range | [-2.5E006;900000> | $0084FFFF | -2500000 - 900000
+2=Range | [900000;4.3E006> | $0063E3FF | 900000 - 4300000
+3=Range | [4.3E006;7.7E006> | $004AC3F7 | 4300000 - 7700000
+4=Range | [7.7E006;1.11E007> | $0029A6F7 | 7700000 - 11100000
+5=Range | [1.11E007;1.45E007> | $00186DC6 | 11100000 - 14500000
+6=Range | [1.45E007;1.79E007> | $00083894 | 14500000 - 17900000
+7=Range | [1.79E007;2.1E007> | $0000046B | 17900000 - 21000000
+[DiffCat]
+Count=3
+1=Range | [-50000000;-100000] | $0000C000 | decrease
+2=Range | <-100000;100000> | clSilver | no change
+3=Range | [100000;50000000> | clRed | increase

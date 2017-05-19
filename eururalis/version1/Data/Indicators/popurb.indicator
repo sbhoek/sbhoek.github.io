@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=popurb
+Caption=Urban Population (historical)
+DifferenceType=Relative
+Units=Percentage
+Groups=pophist
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;10> | $0084FFFF | < 10
+2=Range | [10;20> | $0063E3FF | 10 - 20
+3=Range | [20;30> | $004AC3F7 | 20 - 30
+4=Range | [30;40> | $0029A6F7 | 30 - 40
+5=Range | [40;50> | $00186DC6 | 40 - 50
+6=Range | [50;70> | $00083894 | 50 - 70
+7=Range | [70;100> | $0000046B | 70 >
+[DiffCat]
+Count=3
+1=Range | [-1000;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;1000> | clRed | increase

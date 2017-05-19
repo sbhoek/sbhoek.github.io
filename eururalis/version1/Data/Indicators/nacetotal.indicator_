@@ -1,0 +1,22 @@
+[Legend]
+IndicatorID=nacetotal
+Caption=NACE: All NACE branches - Total
+DifferenceType=Absolute
+Units=Millions of euro
+Groups=
+IsTableData=1
+
+[Categories]
+Count=7
+1=Range | [0;300000> | $0084FFFF | 0 - 300000
+2=Range | [300000;600000> | $0063E3FF | 300000 - 600000
+3=Range | [600000;900000> | $004AC3F7 | 600000 - 900000
+4=Range | [900000;1.2E006> | $0029A6F7 | 900000 - 1200000
+5=Range | [1.2E006;1.5E006> | $00186DC6 | 1200000 - 1500000
+6=Range | [1.5E006;1.8E006> | $00083894 | 1500000 - 1800000
+7=Range | [1.8E006;2E006> | $0000046B | 1800000 - 2000000
+[DiffCat]
+Count=3
+1=Range | [-2E006;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;2E006> | clRed | increase

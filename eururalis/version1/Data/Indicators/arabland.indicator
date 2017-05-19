@@ -1,0 +1,25 @@
+[Legend]
+IndicatorID=arabland
+Caption=Arable land (historical)
+DifferenceType=Absolute
+Units=Percentage
+Groups=lndusehist
+IsTableData=1
+
+
+
+
+[Categories]
+Count=7
+1=Range | [5;14> | $0084FFFF | 5 - 14
+2=Range | [14;23> | $0063E3FF | 14 - 23
+3=Range | [23;32> | $004AC3F7 | 23 - 32
+4=Range | [32;41> | $0029A6F7 | 32 - 41
+5=Range | [41;50> | $00186DC6 | 41 - 50
+6=Range | [50;59> | $00083894 | 50 - 59
+7=Range | [59;70> | $0000046B | 59 - 70
+[DiffCat]
+Count=3
+1=Range | [-100;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;100> | clRed | increase

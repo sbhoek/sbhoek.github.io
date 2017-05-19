@@ -1,0 +1,25 @@
+[Legend]
+IndicatorID=sens
+Caption=Erosion risk
+DifferenceType=Absolute
+Units=
+Groups=landdegradation
+IsTableData=0
+
+
+
+
+[Categories]
+Count=6
+1=Single | 1 | $00A5FFA5 | Very low erosion sensitivity
+2=Single | 2 | clYellow | Low erosion sensitivity
+3=Single | 3 | $00C6C3FF | Medium erosion sensitivity
+4=Single | 4 | clRed | High erosion sensitivity
+5=Single | 5 | $00000084 | Very high erosion sensitivity
+6=Range | [10;13> | $00DE9E9C | Not relevant
+[DiffCat]
+Count=4
+1=Range | [-4;-1> | $00C6FFC6 | 1 class decrease erosion sensitivity (small decrease)
+2=Single | 0 | $00C6FBFF | no change
+3=Range | [1;4> | clYellow | 1 class increase erosion sensitivity (small increase)
+4=Range | [10;13> | $00DE9E9C | Not relevant

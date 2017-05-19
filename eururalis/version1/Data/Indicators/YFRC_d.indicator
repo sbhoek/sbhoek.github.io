@@ -1,0 +1,26 @@
+[Legend]
+IndicatorID=yfrc_d
+Caption=farm income change (domestic supply)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=farmincome
+IsTableData=1
+
+
+
+
+
+[Categories]
+Count=7
+1=Range | [0.85;0.96> | $0084FFFF | 0.85 - 0.96
+2=Range | [0.96;1.07> | $0063E3FF | 0.96 - 1.07
+3=Range | [1.07;1.18> | $004AC3F7 | 1.07 - 1.18
+4=Range | [1.18;1.29> | $0029A6F7 | 1.18 - 1.29
+5=Range | [1.29;1.4> | $00186DC6 | 1.29 - 1.4
+6=Range | [1.4;1.51> | $00083894 | 1.4 - 1.51
+7=Range | [1.51;1.65> | $0000046B | 1.51 - 1.65
+[DiffCat]
+Count=3
+1=Range | [-5;-0.01] | $0000C000 | decrease
+2=Range | <-0.01;0.01> | clSilver | no change
+3=Range | [0.01;5> | clRed | increase

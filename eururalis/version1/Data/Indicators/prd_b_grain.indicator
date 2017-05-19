@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_b_grain
+Caption=prodcution growth grain (border support)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.9;0.936> | $0084FFFF | 0.9 - 0.936
+2=Range | [0.936;0.972> | $0063E3FF | 0.936 - 0.972
+3=Range | [0.972;1.008> | $004AC3F7 | 0.972 - 1.008
+4=Range | [1.008;1.044> | $0029A6F7 | 1.008 - 1.044
+5=Range | [1.044;1.08> | $00186DC6 | 1.044 - 1.08
+6=Range | [1.08;1.116> | $00083894 | 1.08 - 1.116
+7=Range | [1.116;1.15> | $0000046B | 1.116 - 1.15
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

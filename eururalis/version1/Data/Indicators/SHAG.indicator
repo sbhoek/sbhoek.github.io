@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=shag 
+Caption=Share of agro-complex in GDP
+DifferenceType=Absolute
+Units=fraction
+Groups=GDP
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.01;0.04> | $0084FFFF | 0.01 - 0.04
+2=Range | [0.04;0.07> | $0063E3FF | 0.04 - 0.07
+3=Range | [0.07;0.1> | $004AC3F7 | 0.07 - 0.1
+4=Range | [0.1;0.13> | $0029A6F7 | 0.1 - 0.13
+5=Range | [0.13;0.16> | $00186DC6 | 0.13 - 0.16
+6=Range | [0.16;0.19> | $00083894 | 0.16 - 0.19
+7=Range | [0.19;0.2> | $0000046B | 0.19 - 0.2
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

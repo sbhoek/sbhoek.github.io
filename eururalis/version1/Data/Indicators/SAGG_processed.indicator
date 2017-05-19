@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=sagg_processed
+Caption=Share of processed food in GDP
+DifferenceType=Absolute
+Units=fraction
+Groups=GDP
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.009;0.0291> | $0084FFFF | 0.009 - 0.0291
+2=Range | [0.0291;0.0492> | $0063E3FF | 0.0291 - 0.0492
+3=Range | [0.0492;0.0693> | $004AC3F7 | 0.0492 - 0.0693
+4=Range | [0.0693;0.0894> | $0029A6F7 | 0.0693 - 0.0894
+5=Range | [0.0894;0.1095> | $00186DC6 | 0.0894 - 0.1095
+6=Range | [0.1095;0.1296> | $00083894 | 0.1095 - 0.1296
+7=Range | [0.1296;0.15> | $0000046B | 0.1296 - 0.15
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

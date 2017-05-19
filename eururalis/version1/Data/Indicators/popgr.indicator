@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=popgr
+Caption=Population growth
+DifferenceType=Absolute
+Units=Percentage
+Groups=pop
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [-15;-9> | $0084FFFF | -15 - -9
+2=Range | [-9;-3> | $0063E3FF | -9 - -3
+3=Range | [-3;3> | $004AC3F7 | -3 - 3
+4=Range | [3;9> | $0029A6F7 | 3 - 9
+5=Range | [9;15> | $00186DC6 | 9 - 15
+6=Range | [15;21> | $00083894 | 15 - 21
+7=Range | [21;25> | $0000046B | 21 - 25
+[DiffCat]
+Count=3
+1=Range | [-50;-0.5] | $0000C000 | decrease
+2=Range | <-0.5;0.5> | clSilver | no change
+3=Range | [0.5;50] | clRed | increase

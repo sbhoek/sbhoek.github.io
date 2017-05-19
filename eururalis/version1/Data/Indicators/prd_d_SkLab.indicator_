@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_d_sklab
+Caption=NACE: output growth compared with the base for SkLab?????? (domestic supply)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.75;0.814> | $0084FFFF | 0.75 - 0.814
+2=Range | [0.814;0.878> | $0063E3FF | 0.814 - 0.878
+3=Range | [0.878;0.942> | $004AC3F7 | 0.878 - 0.942
+4=Range | [0.942;1.006> | $0029A6F7 | 0.942 - 1.006
+5=Range | [1.006;1.07> | $00186DC6 | 1.006 - 1.07
+6=Range | [1.07;1.134> | $00083894 | 1.07 - 1.134
+7=Range | [1.134;1.2> | $0000046B | 1.134 - 1.2
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

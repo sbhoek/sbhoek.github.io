@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=y_maizegr
+Caption=Grain Maize: stat yield (historical)
+DifferenceType=Absolute
+Units=ton/ha
+Groups=statyield
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;1.6> | $0084FFFF | 0 - 1.6
+2=Range | [1.6;3.2> | $0063E3FF | 1.6 - 3.2
+3=Range | [3.2;4.8> | $004AC3F7 | 3.2 - 4.8
+4=Range | [4.8;6.4> | $0029A6F7 | 4.8 - 6.4
+5=Range | [6.4;8> | $00186DC6 | 6.4 - 8
+6=Range | [8;9.6> | $00083894 | 8 - 9.6
+7=Range | [9.6;11.2> | $0000046B | 9.6 - 11.2
+[DiffCat]
+Count=3
+1=Range | [-5;-0.01] | $0000C000 | decrease
+2=Range | <-0.01;0.01> | clSilver | no change
+3=Range | [0.01;5> | clRed | increase

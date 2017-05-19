@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=prd_t_grain
+Caption=Production growth grain (total)
+DifferenceType=Absolute
+Units=Index (reference 2000)
+Groups=prd
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0.7;0.814> | $0084FFFF | 0.7 - 0.814
+2=Range | [0.814;0.928> | $0063E3FF | 0.814 - 0.928
+3=Range | [0.928;1.042> | $004AC3F7 | 0.928 - 1.042
+4=Range | [1.042;1.156> | $0029A6F7 | 1.042 - 1.156
+5=Range | [1.156;1.27> | $00186DC6 | 1.156 - 1.27
+6=Range | [1.27;1.384> | $00083894 | 1.27 - 1.384
+7=Range | [1.384;1.5> | $0000046B | 1.384 - 1.5
+[DiffCat]
+Count=3
+1=Range | [-5;-0.001] | $0000C000 | decrease
+2=Range | <-0.001;0.001> | clSilver | no change
+3=Range | [0.001;5> | clRed | increase

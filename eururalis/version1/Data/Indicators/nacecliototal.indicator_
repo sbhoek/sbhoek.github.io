@@ -1,0 +1,23 @@
+[Legend]
+IndicatorID=nacecliototal
+Caption=NACE: Agriculture, hunting, forestry and fishing & Industry & Services
+DifferenceType=Absolute
+Units=Millions of euro
+Groups=
+IsTableData=1
+
+
+[Categories]
+Count=7
+1=Range | [0;171000> | $0084FFFF | 0 - 171000
+2=Range | [171000;342000> | $0063E3FF | 171000 - 342000
+3=Range | [342000;513000> | $004AC3F7 | 342000 - 513000
+4=Range | [513000;684000> | $0029A6F7 | 513000 - 684000
+5=Range | [684000;855000> | $00186DC6 | 684000 - 855000
+6=Range | [855000;1.026E006> | $00083894 | 855000 - 1026000
+7=Range | [1.026E006;1.2E006> | $0000046B | 1026000 - 1200000
+[DiffCat]
+Count=3
+1=Range | [-2E006;-1] | $0000C000 | decrease
+2=Range | <-1;1> | clSilver | no change
+3=Range | [1;2E006> | clRed | increase

@@ -1,0 +1,227 @@
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFCC33;
+	background-color: #006600;
+	border: none;
+	font-weight: bold;
+
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffee99;
+	letter-spacing: 0px;
+	text-align: justify;
+	margin:0px;
+	padding:0px;
+	text-transform: none;
+	font-weight: normal;
+	line-height: 20px;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #009900;
+
+}
+body {
+	background-color: #006600;
+	margin:40px 20px 20px;
+}
+
+
+div{
+	SCROLLBAR-FACE-COLOR: #117711;
+	SCROLLBAR-HIGHLIGHT-COLOR: #117711;
+	SCROLLBAR-SHADOW-COLOR: #006600;
+	SCROLLBAR-3DLIGHT-COLOR: #339933;
+	SCROLLBAR-ARROW-COLOR: #ffcc33;
+	SCROLLBAR-TRACK-COLOR: #006600;
+	SCROLLBAR-DARKSHADOW-COLOR: #003300;
+	position:absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #002000;
+	line-height: 14px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	text-align: justify;
+	width: 414px;
+	height: 400px;
+	left: 254px;
+	top: 200px;
+
+
+
+
+	
+
+
+}
+
+.kop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffcc33;
+	height:30px;
+	letter-spacing: 1px;
+	font-variant: normal;
+
+
+}
+
+.select_item {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffee99;
+	height:8px;
+	background-attachment: fixed;
+	background-image: url(../images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left:15px;
+	cursor:hand;
+	line-height: 14px;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+
+
+
+}
+
+
+.tekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+color: #ffee99;
+	
+	text-align:left;
+}
+.tekst_bold{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+color: #ffee99;
+font-weight:bold;
+border-top:1px solid #669966;
+width:100%;
+
+}
+
+ul{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffee99;
+	text-align:justify;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+
+
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+a.graph{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+		background-attachment: scroll;
+	background-image: url(../images/graph.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-left:20px;
+	margin-left:10px;
+
+}
+a.map{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-attachment: scroll;
+	background-image: url(../images/map.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+		padding-left:20px;
+		margin-left:10px;
+
+}
+
+.orange{
+	color:#ffcc00;
+}
+li {
+	list-style-position: outside;
+	list-style-type: disc;
+	line-height: 20px;
+	letter-spacing: 0px;
+}
+
+body{
+	SCROLLBAR-FACE-COLOR: #117711;
+	SCROLLBAR-HIGHLIGHT-COLOR: #117711;
+	SCROLLBAR-SHADOW-COLOR: #006600;
+	SCROLLBAR-3DLIGHT-COLOR: #339933;
+	SCROLLBAR-ARROW-COLOR: #ffcc33;
+	SCROLLBAR-TRACK-COLOR: #006600;
+	SCROLLBAR-DARKSHADOW-COLOR: #003300;
+}
+
+table.tabtable{
+		font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffee99;
+	letter-spacing: 0px;
+	text-align: justify;
+	margin:0px;
+	padding:0px;
+	text-transform: none;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+div.test{
+position:absolute;
+width:500px;
+border:1px dashed #008800;
+padding-left:2px; padding-right:2px;
+}
+span.testSelect{
+	display:inline;
+	cursor:hand;
+	border:1px solid #009900;
+	background-color:#007700;
+	padding-left:2px;
+	padding-right:2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffcc00;
+}
+span.testSelected{
+display:none;  border:1px solid #007700; background-color:#006600; padding-left:2px;padding-right:2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffcc00;
+
+}
+table.test{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffcc00;
+}
