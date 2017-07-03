@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Eururalis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../eururalis.css" rel="stylesheet" type="text/css">
+  <script language="JavaScript">
+  var javawsInstalled = 0;
+  var javaws142Installed=0;
+  var javaws150Installed=0;
+  var javaws160Installed = 0;
+  isIE = "false";
+  if (navigator.mimeTypes && navigator.mimeTypes.length) {
+     x = navigator.mimeTypes['application/x-java-jnlp-file'];
+     if (x) {
+        javawsInstalled = 1;
+        javaws142Installed=1;
+        javaws150Installed=1;
+        javaws160Installed = 1;
+    }
+  }
+  else {
+     isIE = "true";
+  }
+  </script>
+
+  <script language="VBScript">
+  on error resume next
+  If isIE = "true" Then
+    If Not(IsObject(CreateObject("JavaWebStart.isInstalled"))) Then
+       javawsInstalled = 0
+    Else
+       javawsInstalled = 1
+    End If
+    If Not(IsObject(CreateObject("JavaWebStart.isInstalled.1.4.2.0"))) Then
+       javaws142Installed = 0
+    Else
+       javaws142Installed = 1
+    End If
+    If Not(IsObject(CreateObject("JavaWebStart.isInstalled.1.5.0.0"))) Then
+       javaws150Installed = 0
+    Else
+       javaws150Installed = 1
+    End If
+    If Not(IsObject(CreateObject("JavaWebStart.isInstalled.1.6.0.0"))) Then
+       javaws160Installed = 0
+    Else
+       javaws160Installed = 1
+    End If
+  End If
+  </script>
+<style>
+ul {margin-top: 0px; margin-bottom: 0px; list-style-type:disc; list-style-position:outside;}
+li {margin:0 0 0 -20}
+</style>  
+</head>
+
+<body bgcolor="#F0FEFF" leftmargin="0" topmargin="17" marginwidth="0" marginheight="17" style="background-image:url(../images/back_lucht_b.jpg);">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top"><table width="983" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="40" background="../images/tab_tussen.gif"> <table height="40" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="5"><img src="../images/tab_normal_l.gif" width="5" height="40"></td>
+                <td background="../images/tab_normal_m.gif" class="menu"><a href="../index.htm">Home</a></td>
+                <td width="5"><img src="../images/tab_normal_r.gif" width="5" height="40"></td>
+                <td width="5"><img src="../images/tab_actief_l.gif" width="5" height="40"></td>
+                <td background="../images/tab_actief_m.gif" class="menu">Download</td>
+                <td width="5"><img src="../images/tab_actief_r.gif" width="5" height="40"></td>
+                <td width="5"><img src="../images/tab_normal_l.gif" width="5" height="40"></td>
+                <td background="../images/tab_normal_m.gif" class="menu"><a href="faq.html">FAQ</a></td>
+                <td width="5"><img src="../images/tab_normal_r.gif" width="5" height="40"></td>
+                <td width="5"><img src="../images/tab_normal_l.gif" width="5" height="40"></td>
+                <td background="../images/tab_normal_m.gif" class="menu"><a href="register.html">Registration</a></td>
+                <td width="5"><img src="../images/tab_normal_r.gif" width="5" height="40"></td>                                           
+                <td width="4"><img src="../images/tab_tussen.gif" width="4" height="40"></td>
+                <td width="300" align="center" valign="top"><a href="/"><img src="../images/logo.gif" width="171" height="20" border="0"></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td> <table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/back_content.gif">
+              <tr>
+                <td width="651" height="36" class="submenu">&nbsp;</td>
+                <td width="332" height="36">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="651" height="74" background="../images/back_boom.jpg" class="titel">Eururalis 2.0 interactive tool</td>
+                <td width="332" height="74" background="../images/back_veld.jpg" class="titel">Note</td>
+              </tr>
+              <tr>
+                <td width="651" height="300" valign="top" class="content">
+                <p>
+                  The interactive tool offers more functionality than just the contents: maps and graphs can be explored for
+                  different scenarios and for different policy options.
+                </p>
+                <p>
+                  <script language="JavaScript">
+                  /* Note that the logic below always launches the JNLP application
+                   *if the browser is Gecko based. This is because it is not possible
+                   *to detect MIME type application/x-java-jnlp-file on Gecko-based browsers.
+                   */
+                  if (javawsInstalled || (navigator.userAgent.indexOf("Gecko") != -1)) {
+                      // Web Start
+                      document.write("Fortunately, Java is already installed on your machine! It's going to be easy! ");
+                      //document.write('Click&nbsp; <A HREF="eururalis2.jnlp" //style="font-weight:bold;">here</A> &nbsp;to download and install the //application ');
+                      //document.write("via the Java Network Launch Protocol //(JNLP).<BR>&nbsp;<BR>")
+                  } else {
+                      document.write("You do not have Java installed, or the version of Java you have is outdated.");
+                      document.write("To run Eururalis2 successfully, you'll need Java version 1.6 or higher; ");
+                      document.write("please look for the Java Runtime Environment (JRE) 6.0 Update 3 or higher");
+                      document.write('<A HREF="http://java.sun.com/javase/downloads/index.jsp" TARGET="_blank">here</A><BR>');
+                  }
+                  </script>
+                  <noscript>
+                  <ol>
+                    <li>
+                      Find out whether you have Java 1.6 installed (JRE) or even a higher version. To do so, get a command prompt and enter:<br>
+                      java -version
+                    </li>
+                    <li>
+                      If you don't have Java 1.6 installed, look for the Java Runtime Environment (JRE) 6.0 Update 3 or higher
+                      <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">here</a>
+                    </li>
+                    <!--li>
+                      To install and start the application via the Java Network Launch Protocol (JNLP), click&nbsp;
+                      <a href="eururalis2.jnlp" style="font-weight:bold;">here</a>
+                    </li-->
+                  </ol>
+                  </noscript>
+                  In April 2011 a warning started appearing at startup, as a result of our decision not to renew the certificate again.
+                  <!--You can ignore the warning - the application still works all right!-->
+                  It became necessary to abandon the JNLP protocol. We made it possible for you to still install the application though - but now directly onto your computer. You do so at your own risk. Download the installer <a href="Eururalis2.msi">here</a> (for Windows).
+                  <br/>&nbsp;<br/>
+                  Once installed, you can start the application by clicking <!--on the same link. Alternatively you can start
+                  the application by -->doubleclicking the Eururalis2 shortcut on your desktop. <!--, even if you are offline.
+                  In case you have removed that shortcut, you can start the application from your Java Control Panel.
+                  <script language="JavaScript">
+                    var agt=navigator.userAgent.toLowerCase();
+                    if (agt.indexOf("win") !=-1) document.write("That panel can be found in your Windows Control Panel.");
+                  </script>-->
+                  
+                </p>
+                </td>
+                <td width="332" valign="top" class="contentrechts">
+                  Please be aware that you need a fast Internet connection because of more than
+                  560 MB of data. In addition you will need disk space:
+                  <ul>
+                    <li>approx. 740 MB of disk space to store those data in a folder of your choice; and</li>
+                    <li>approx. 25 MB for storing the program files <!--, in your personal profile storage space--></li>
+                  </ul>
+                  <!--p>
+                    If the above requirements pose a problem for you: Eururalis 2.0 is also available on DVD.
+                    You can order it <a href="register.html">here</a>.
+                  </p>
+                  <p>
+                    Read more about Java Web Start <a href="http://en.wikipedia.org/wiki/Java_Web_Start" target="_blank">here</a>.
+                  </p-->
+                </td>
+              </tr>
+              <tr>
+                <td valign="top"><img src="../images/kader_onder_l.gif" width="651" height="5"></td>
+                <td valign="top"><img src="../images/kader_onder_r.gif" width="332" height="5"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>
